@@ -26,9 +26,6 @@ class App extends React.Component {
 
   async handleClick() {
     await this.buildURL();
-
-    alert('Value URL: ' + this.state.valueURL);
-
     const response = await fetch(this.state.valueURL);
     const body = await response.json();
     this.setState({ films: body });
