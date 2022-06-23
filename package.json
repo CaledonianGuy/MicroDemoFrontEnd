@@ -34,5 +34,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "https://microdemo-1655722845029.azurewebsites.net/Home"
 }
